@@ -1,5 +1,8 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react';
+import {photo1} from "../assets/projectimages/project1image.jpeg";
+import {photo2} from "../assets/projectimages/project2image.jpeg";
+import {photo3} from "../assets/projectimages/project3image.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -8,26 +11,26 @@ const Projects = () => {
       description: "Developed dynamic, responsive, and interactive React applications using modern frameworks and libraries. Integrated RESTful APIs and implemented state management using Redux and Context API.",
       techStack: ['React', 'Redux', 'RESTful APIs', 'Context API'],
       githubLink: "https://github.com",
-      image: "src/assets/projectimages/project1image.jpeg"
+      image: {photo1}
     },
     {
       title: "Portfolio Website",
       description: "Designed and built user-friendly web interfaces using JavaScript and React. Improved website accessibility, ensuring compliance with WCAG standards.",
       techStack: ['JavaScript', 'React', 'Tailwind Css', 'Shadcn UI'],
       githubLink: "https://github.com",
-      image: "src/assets/projectimages/project2image.jpeg"
+      image: {photo1}
     },
     {
       title: "Job Portal",
       description: "Built and maintained scalable back-end systems using Node.js and Express. Designed and optimized database schemas in MongoDB and PostgreSQL to improve query performance.",
       techStack: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'OAuth2'],
       githubLink: "https://github.com",
-      image: "src/assets/projectimages/project3image.jpeg"
+      image: {photo1}
     }
   ];
 
   return (
-    <section id="projects" className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-32 px-4 sm:px-6 lg:px-8 relative">
+    <section id="projects" className="min-h-screen bg-gradient-to-br  from-purple-900 to-slate-900  py-32 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center">
           Featured <span className="text-purple-400">Projects</span>

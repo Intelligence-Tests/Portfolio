@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkExperience = () => {
   return (
-    <section id="experience" className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-32 px-4 sm:px-6 lg:px-8">
+    <section id="experience" className="min-h-screen bg-gradient-to-br  from-purple-900 to-slate-900  py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center">
           Work <span className="text-purple-400">Experience</span>

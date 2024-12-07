@@ -10,16 +10,19 @@ import WorkExperience from "./components/WorkExperience"
 function App() {
   return (
     <>
-      <div className="overflow-hidden">
-        <Header />
-        <About />
-        <WorkExperience />
-        <Education />
-        <Projects />
-        <Skills />
-        <Contact />
-        <Footer />
-      </div>
+     <div className="overflow-hidden">
+     <Header/>
+     <About />
+      {/* Divider with gradient */}
+      <WorkExperience />
+
+      <Education/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
+
+      <Footer/>
+     </div>
     </>
 
   )

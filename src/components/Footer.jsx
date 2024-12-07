@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-slate-400">
-            © 2024 Alex Chen. Crafted with passion in San Francisco
+            © 2024 Mark. Crafted with passion 
           </p>
         </div>
       </footer>

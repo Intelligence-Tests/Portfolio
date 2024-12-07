@@ -41,7 +41,7 @@ const Header = () => {
             href="#about"
             className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent hover:text-purple-400 bg-clip-text"
           >
-            AC
+            MR
           </a>
 
           {/* Hamburger Menu Icon for Small Screens */}

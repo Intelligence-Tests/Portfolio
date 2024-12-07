@@ -1,9 +1,10 @@
 import React from 'react'
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, Code, Globe, Database, Cpu } from 'lucide-react';
+import { Github, Linkedin, Mail} from 'lucide-react';
+import {photo} from "../assets/photomine.jpeg";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-32 px-4 sm:px-6 lg:px-8 relative">
+    <section id="about" className="min-h-screen bg-gradient-to-br from-slate-900 to-purple-900 py-32 px-4 sm:px-6 lg:px-8 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-900/20 to-transparent"></div>
       <div className="max-w-7xl mx-auto relative">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 text-center ">
@@ -14,7 +15,7 @@ const About = () => {
             <div className="relative rounded-full overflow-hidden shadow-lg">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/30 to-transparent"></div>
               <img
-                src="src/assets/photomine.jpeg"
+                src={photo}
                 alt="Profile"
                 className="object-cover w-full h-full rounded-lg"
               />
@@ -30,7 +31,7 @@ const About = () => {
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl">
-                Hello, my name is Harin, a passionate developer with over 5 years of experience in creating innovative digital solutions. I specialize in building scalable web applications and exploring emerging technologies to craft impactful user experiences.
+                Hello, my name is Mark, a passionate developer with over 5 years of experience in creating innovative digital solutions. I specialize in building scalable web applications and exploring emerging technologies to craft impactful user experiences.
               </p>
               <div className="grid grid-cols-2 gap-3">
                 <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl">
