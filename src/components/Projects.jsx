@@ -1,8 +1,8 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react';
-import {photo1} from "../assets/projectimages/project1image.jpeg";
-import {photo2} from "../assets/projectimages/project2image.jpeg";
-import {photo3} from "../assets/projectimages/project3image.jpeg";
+import photo1 from "../assets/projectimages/project1image.jpeg";
+import photo2 from "../assets/projectimages/project2image.jpeg";
+import photo3 from "../assets/projectimages/project3image.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -11,21 +11,21 @@ const Projects = () => {
       description: "Developed dynamic, responsive, and interactive React applications using modern frameworks and libraries. Integrated RESTful APIs and implemented state management using Redux and Context API.",
       techStack: ['React', 'Redux', 'RESTful APIs', 'Context API'],
       githubLink: "https://github.com",
-      image: {photo1}
+      image: photo1
     },
     {
       title: "Portfolio Website",
       description: "Designed and built user-friendly web interfaces using JavaScript and React. Improved website accessibility, ensuring compliance with WCAG standards.",
       techStack: ['JavaScript', 'React', 'Tailwind Css', 'Shadcn UI'],
       githubLink: "https://github.com",
-      image: {photo1}
+      image: photo2
     },
     {
       title: "Job Portal",
       description: "Built and maintained scalable back-end systems using Node.js and Express. Designed and optimized database schemas in MongoDB and PostgreSQL to improve query performance.",
       techStack: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'OAuth2'],
       githubLink: "https://github.com",
-      image: {photo1}
+      image: photo3
     }
   ];
 
